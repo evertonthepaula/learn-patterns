@@ -1,0 +1,19 @@
+{
+  "name": "Learn Patterns"
+  ,"description": ""
+  ,"authors": [
+    {
+      "name": "Everton de Paula"
+      ,"email": "evertothepaula@gmail.com"
+      ,"homepage": "https://github.com/evertonthepaula"
+    }
+  ]
+  ,"autoload": {
+    "psr-4": {
+      "Builder\\": "builder/"
+    }
+  }
+  ,"require": {
+    "php": ">=5.6"
+  }
+}
