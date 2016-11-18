@@ -12,4 +12,9 @@ namespace LearnPatters\Creational\InterfaceBuilder;
 class Director
 {
 
+    function __construct($)
+    {
+
+    }
+
 }

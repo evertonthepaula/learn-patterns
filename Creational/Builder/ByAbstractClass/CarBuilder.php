@@ -1,7 +1,7 @@
 <?php
-namespace CreationalBuilder;
+namespace Builder\ByAbstractClass;
 
-use CreationalBuilder\CarSpecs;
+use Builder\ByAbstractClass\CarSpecs;
 
 abstract class CarBuilder
 {

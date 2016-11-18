@@ -11,7 +11,7 @@
   ,"autoload": {
     "psr-4": {
       "LearnPattenrs\\" : "./"
-      ,"CreationalBuilder\\" : "./Creational/Builder/use-abstract-class"
+      ,"Builder\\" : "./Creational/Builder"
     }
   }
   ,"require": {

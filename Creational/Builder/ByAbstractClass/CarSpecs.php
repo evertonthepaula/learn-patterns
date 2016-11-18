@@ -1,5 +1,5 @@
 <?php
-namespace CreationalBuilder;
+namespace Builder\ByAbstractClass;
 
 class CarSpecs
 {

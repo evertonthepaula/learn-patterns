@@ -3,7 +3,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 require __DIR__ . '/../../../vendor/autoload.php';
 
-$newFiat =  new CreationalBuilder\BuildDirector( new CreationalBuilder\FiatBuilder() );
+$newFiat =  new \Builder\ByAbstractClass\BuildDirector( new \Builder\ByAbstractClass\FiatBuilder() );
 
 $newFiat->buildCar();
 $carroFiat = $newFiat->getCar();

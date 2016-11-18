@@ -1,7 +1,7 @@
 <?php
-namespace CreationalBuilder;
+namespace Builder\ByAbstractClass;
 
-use CreationalBuilder\CarBuilder;
+use Builder\ByAbstractClass\CarBuilder;
 
 class FiatBuilder extends CarBuilder
 {
