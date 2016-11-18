@@ -1,9 +1,10 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 
-$newFiat = new \Builder\BuildDirector( new  \Builder\FiatBuilder() );
+$newFiat =  new CreationalBuilder\BuildDirector( new CreationalBuilder\FiatBuilder() );
+
 $newFiat->buildCar();
 $carroFiat = $newFiat->getCar();
 

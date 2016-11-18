@@ -1,14 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: epaula
- * Date: 17/11/16
- * Time: 14:14
- */
+namespace CreationalBuilder;
 
-namespace Builder;
-
-use Builder\CarBuilder;
+use CreationalBuilder\CarBuilder;
 
 class FiatBuilder extends CarBuilder
 {

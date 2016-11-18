@@ -1,12 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: epaula
- * Date: 17/11/16
- * Time: 14:00
- */
-
-namespace Builder;
+namespace CreationalBuilder;
 
 class CarSpecs
 {

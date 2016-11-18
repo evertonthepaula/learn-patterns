@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Builder\\' => array($baseDir . '/builder'),
+    'LearnPattenrs\\' => array($baseDir . '/'),
+    'CreationalBuilder\\' => array($baseDir . '/Creational/Builder/use-abstract-class'),
 );

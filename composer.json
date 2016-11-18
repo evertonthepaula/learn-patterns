@@ -10,7 +10,8 @@
   ]
   ,"autoload": {
     "psr-4": {
-      "Builder\\": "builder/"
+      "LearnPattenrs\\" : "./"
+      ,"CreationalBuilder\\" : "./Creational/Builder/use-abstract-class"
     }
   }
   ,"require": {

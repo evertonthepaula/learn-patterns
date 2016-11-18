@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: epaula
- * Date: 17/11/16
- * Time: 17:04
- */
 
-namespace Builder;
+namespace CreationalBuilder;
 
 class BuildDirector{
 
