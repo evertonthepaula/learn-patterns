@@ -17,32 +17,27 @@ class FiatBuilder extends CarBuilder
     }
 
     //@Override
-    public function buildPreco() {
-        // Operação complexa.
+    public function setPreco() {
         $this->car->preco = 25000.00;
     }
 
     //@Override
-    public function  buildDscMotor() {
-        // Operação complexa.
+    public function setDscMotor() {
         $this->car->dscMotor = "Fire Flex 1.0";
     }
 
     //@Override
-    public function buildAnoDeFabricacao() {
-        // Operação complexa.
+    public function setAnoDeFabricacao() {
         $this->car->anoDeFabricacao = 2011;
     }
 
     //@Override
-    public function buildModelo() {
-        // Operação complexa.
+    public function setModelo() {
         $this->car->modelo = "Palio";
     }
 
     //@Override
-    public function buildMontadora() {
-        // Operação complexa.
+    public function setMontadora() {
         $this->car->montadora = "Fiat";
     }
 

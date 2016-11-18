@@ -8,20 +8,20 @@ abstract class CarBuilder
     protected $car;
 
     function __construct() {
-        $this->car = new CarSpecs();
+        $this->car =  new CarSpecs() ;
     }
 
-    public abstract function buildPreco();
+    public abstract function setPreco();
 
-    public abstract function buildDscMotor();
+    public abstract function setDscMotor();
 
-    public abstract function buildAnoDeFabricacao();
+    public abstract function setAnoDeFabricacao();
 
-    public abstract function buildModelo();
+    public abstract function setModelo();
 
-    public abstract function buildMontadora();
+    public abstract function setMontadora();
 
-    public function getCarro() {
+    public function getCar() {
         return $this->car;
     }
 

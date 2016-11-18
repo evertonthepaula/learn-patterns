@@ -12,7 +12,7 @@ class CarSpecs
 {
     public $preco;
     public $dscMotor;
-    public $DeFabricacao;
+    public $anoDeFabricacao;
     public $modelo;
     public $montadora;
 }

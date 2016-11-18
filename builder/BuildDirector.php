@@ -14,22 +14,18 @@ class BuildDirector{
 
     function __construct(CarBuilder $mont) {
         $this->montadora = $mont;
-
-        $this->montadora.buildPreco();
-
-        print_r($this->montadora);
     }
 
     public function buildCar(){
-        $this->montadora.buildPreco();
-        $this->montadora.buildAnoDeFabricacao();
-        $this->montadora.buildDscMotor();
-        $this->montadora.buildModelo();
-        $this->montadora.buildMontadora();
+        $this->montadora->setPreco();
+        $this->montadora->setAnoDeFabricacao();
+        $this->montadora->setDscMotor();
+        $this->montadora->setModelo();
+        $this->montadora->setMontadora();
     }
 
-    public function getCarro() {
-        return $this->montadora.getCarro();
+    public function getCar() {
+        return $this->montadora->getCar();
     }
 
 }
