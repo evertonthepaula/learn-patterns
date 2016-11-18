@@ -11,7 +11,8 @@
   ,"autoload": {
     "psr-4": {
       "LearnPattenrs\\" : "./"
-      ,"Builder\\" : "./Creational/Builder"
+    ,"Builder\\" : "./Creational/Builder"
+    ,"Factory\\" : "./Creational/Factory"
     }
   }
   ,"require": {
