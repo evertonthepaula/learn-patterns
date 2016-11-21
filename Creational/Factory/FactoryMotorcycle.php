@@ -1,4 +1,10 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: epaula
+ * Date: 18/11/16
+ * Time: 17:49
+ */
 
 namespace Factory;
 
@@ -15,13 +21,13 @@ class FactoryAutomobile implements IAutomobileFactory
 
     function __construct()
     {
-        $this->QtdWheels = 4;
-        $this->Qtdpassengers = 5;
-        $this->QtdCapacity = 500;
-        $this->gearshift = 6;
-        $this->maker = 'Wankel';
+        $this->QtdWheels = 2;
+        $this->Qtdpassengers = 2;
+        $this->QtdCapacity = 0;
+        $this->gearshift = 4;
+        $this->maker = 'Honda';
 
-        $this->engine = 'Rotative Wankel 1.3 Liters';
+        $this->engine = ' OHC, Monocilíndrico 4 tempos, arrefecido a ar ';
     }
 
     public function getInfo()
@@ -35,6 +41,5 @@ class FactoryAutomobile implements IAutomobileFactory
             ,$this->engine
         ];
     }
-
 
 }

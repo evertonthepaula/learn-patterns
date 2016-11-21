@@ -12,12 +12,12 @@ class FactoryVehicle implements IVehicleFactory
 
     public function createBicycle()
     {
-        echo '';
+        return new FactoryBicycle();
     }
 
     public function createMotorcycle()
     {
-       echo '';
+        return new FactoryMotorcycle();
     }
 
 

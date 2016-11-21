@@ -5,12 +5,16 @@ require __DIR__ . '/../../vendor/autoload.php';
 
 $vehicle = new \Factory\FactoryVehicle();
 
-$da = new \Factory\FactoryAutomobile();
-
-$newCar = $vehicle->createAuto();
-
+$newCar = $vehicle->createAuto()->getInfo();
+$newBicile = $vehicle->createBicycle()->getInfo();
 
 
-foreach($newCar as $item){
+foreach($newCar as $car){
+    echo $car . "<br>";
+}
+
+echo '<hr>';
+
+foreach($newBicile as $item){
     echo $item . "<br>";
 }

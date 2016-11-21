@@ -11,5 +11,5 @@ namespace Factory;
 
 interface IAutomobileFactory
 {
-
+    public function getInfo();
 }
