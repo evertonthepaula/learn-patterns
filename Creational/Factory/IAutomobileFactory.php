@@ -2,14 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: epaula
- * Date: 18/11/16
- * Time: 17:46
+ * Date: 21/11/16
+ * Time: 09:39
  */
 
 namespace Factory;
 
 
-class AutomobileFactory
+interface IAutomobileFactory
 {
 
 }

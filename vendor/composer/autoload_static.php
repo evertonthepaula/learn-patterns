@@ -11,6 +11,10 @@ class ComposerStaticInitb3e49b8f3391deef74fc03416fe03955
         array (
             'LearnPattenrs\\' => 14,
         ),
+        'F' => 
+        array (
+            'Factory\\' => 8,
+        ),
         'B' => 
         array (
             'Builder\\' => 8,
@@ -21,6 +25,10 @@ class ComposerStaticInitb3e49b8f3391deef74fc03416fe03955
         'LearnPattenrs\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
+        ),
+        'Factory\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Creational/Factory',
         ),
         'Builder\\' => 
         array (

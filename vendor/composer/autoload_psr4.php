@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'LearnPattenrs\\' => array($baseDir . '/'),
+    'Factory\\' => array($baseDir . '/Creational/Factory'),
     'Builder\\' => array($baseDir . '/Creational/Builder'),
 );

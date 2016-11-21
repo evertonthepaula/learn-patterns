@@ -2,8 +2,12 @@
 
 namespace Factory;
 
-interface IVehicleFActory {
+interface IVehicleFactory {
 
-    public function create();
+    public function createAuto();
+
+    public function createBicycle();
+
+    public function createMotorcycle();
 
 }
