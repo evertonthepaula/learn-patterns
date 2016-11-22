@@ -9,25 +9,19 @@
 namespace Factory;
 
 
-class FactoryAutomobile implements IAutomobileFactory
+class FactoryMotorcycle extends Vehicle implements IAutomobileFactory
 {
-    private $QtdWheels;
-    private $Qtdpassengers;
-    private $QtdCapacity;
-    private $gearshift;
-    private $maker;
-
     private $engine;
 
     function __construct()
     {
-        $this->QtdWheels = 2;
-        $this->Qtdpassengers = 2;
-        $this->QtdCapacity = 0;
-        $this->gearshift = 4;
-        $this->maker = 'Honda';
+        $this->setQtdWheels(2);
+        $this->setQtdpassengers(2);
+        $this->setQtdCapacity(0);
+        $this->setgearshift(4);
+        $this->setmaker('Honda');
 
-        $this->engine = ' OHC, Monocilíndrico 4 tempos, arrefecido a ar ';
+        $this->engine = 'OHC, Monocilíndrico 4 tempos, arrefecido a ar';
     }
 
     public function getInfo()

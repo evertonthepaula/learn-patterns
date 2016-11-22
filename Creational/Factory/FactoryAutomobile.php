@@ -3,23 +3,17 @@
 namespace Factory;
 
 
-class FactoryAutomobile implements IAutomobileFactory
+class FactoryAutomobile extends Vehicle implements IAutomobileFactory
 {
-    private $QtdWheels;
-    private $Qtdpassengers;
-    private $QtdCapacity;
-    private $gearshift;
-    private $maker;
-
     private $engine;
 
     function __construct()
     {
-        $this->QtdWheels = 4;
-        $this->Qtdpassengers = 5;
-        $this->QtdCapacity = 500;
-        $this->gearshift = 6;
-        $this->maker = 'Wankel';
+        $this->setQtdWheels(4);
+        $this->setQtdpassengers(5);
+        $this->setQtdCapacity(500);
+        $this->setgearshift(6);
+        $this->setmaker('Wankel');
 
         $this->engine = 'Rotative Wankel 1.3 Liters';
     }
@@ -35,6 +29,5 @@ class FactoryAutomobile implements IAutomobileFactory
             ,$this->engine
         ];
     }
-
-
+    
 }

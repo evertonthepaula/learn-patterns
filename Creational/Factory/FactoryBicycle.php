@@ -3,21 +3,16 @@
 namespace Factory;
 
 
-class FactoryBicycle implements IAutomobileFactory
+class FactoryBicycle extends Vehicle implements IAutomobileFactory
 {
-    private $QtdWheels;
-    private $Qtdpassengers;
-    private $QtdCapacity;
-    private $gearshift;
-    private $maker;
 
     function __construct()
     {
-        $this->QtdWheels = 2;
-        $this->Qtdpassengers = 1;
-        $this->QtdCapacity = 120;
-        $this->gearshift = 16;
-        $this->maker = "Caloi";
+        $this->setQtdWheels(2);
+        $this->setQtdpassengers(1);
+        $this->setQtdCapacity(120);
+        $this->setgearshift(16);
+        $this->setmaker('Caloi');
     }
 
 
