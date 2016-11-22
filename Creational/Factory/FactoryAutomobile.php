@@ -29,5 +29,5 @@ class FactoryAutomobile extends Vehicle implements IAutomobileFactory
             ,$this->engine
         ];
     }
-    
+
 }
